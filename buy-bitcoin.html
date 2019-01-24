@@ -1,30 +1,27 @@
 <!DOCTYPE html>
 <html lang="en-us">
     <head>
-                <meta charset="utf-8">
+        		<meta charset="utf-8">
+		<!--<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">-->
+        <!-- <base href="https://advertiser.nativeads.com/" target="_blank"> -->
 
-        <title>CryptoCharge</title>
-        <meta name="description" content="">
-        <meta name="author" content="">
+		<title>CryptoCharge</title>
+		<meta name="description" content="">
+		<meta name="author" content="">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
+		  <!-- Basic Styles -->
         <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css">
-
+        
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
         <link rel="stylesheet" type="text/css" media="screen" href="css/smartadmin-production.css">
 
         <link rel="stylesheet" type="text/css" media="screen" href="css/smartadmin-skins.css">
 
-        <!-- FAVICONS -->
-        <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
-        <link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon">
-
         <!-- put your personal js/css stuff here -->
         <link rel="stylesheet" type="text/css" media="screen" href="css/your_style.css">
-
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
         <style type="text/css">
             #graph { overflow: hidden; }
@@ -55,7 +52,7 @@
 
                 <!-- PLACE YOUR LOGO HERE -->
                 <span id="logo" style="color:#fff;margin:auto;">
-                    <a href="index.html" style="color:#fff;font-size:27px;line-height:49px;margin-left:10px;">CRYPTOCHARGE</a>
+                    <a href="Buy-Sell.htm" style="color:#fff;font-size:27px;line-height:49px;margin-left:10px;">CRYPTOCHARGE</a>
                 </span>
                 <!-- END LOGO PLACEHOLDER -->
             </div>
@@ -79,13 +76,11 @@
                 </div>
                 <!-- end logout button -->
 
-
-
                 <!-- input: search field -->
                 <form action="#search.html" class="header-search pull-right">
                     <ul id="sparks" class="">
                         <li class="sparks-info">
-                            <h5> CASH Balance<span class="txt-color-black" > $723.52</span></h5>
+                            <h5> CASH Balance<span class="txt-color-black" > $1232.23</span></h5>
                         </li>
                         <li class="sparks-info">
                             <h5> Debit Balance<span class="txt-color-black"> $723.52</span></h5>
@@ -100,21 +95,20 @@
                             </li>
                         </li>
                         <li class="sparks-info">
-                            <h5> BTC Balance<span class="txt-color-black" > 0.00532</span></h5>
+                            <h5> BTC Balance <span class="txt-color-black" > 0.00532</span></h5>
                         </li>
                         <li class="sparks-info">
-                            <h5> ETH Balance<span class="txt-color-black"> 0.00532</span></h5>
+                            <h5> ETH Balance <span class="txt-color-black"> 1.75</span></h5>
                         </li>
                         <li class="sparks-info">
-                            <h5> BCH Balance<span class="txt-color-black"> 1.75</span></h5>
+                            <h5> BCH Balance <span class="txt-color-black"> 1.50</span></h5>
                         </li>
                         <li class="sparks-info">
-                            <h5> DASH Balance<span class="txt-color-black"> 0.00</span></h5>
+                            <h5> DASH Balance <span class="txt-color-black"> 1.25</span></h5>
                         </li>
                     </ul>
                 </form>
                 <!-- end input: search field -->
-
 
                 <!-- multiple lang dropdown : find all flags in the image folder -->
 
@@ -126,18 +120,12 @@
         </header>
         <!-- END HEADER -->
 
-        <!-- END HEADER -->
-
-        <!-- Left panel : Navigation area -->
-        <!-- Note: This width of the aside area can be adjusted through LESS variables -->
-        <!-- Left panel : Navigation area -->
-<!-- Note: This width of the aside area can be adjusted through LESS variables -->
 <aside id="left-panel">
 
     <!-- User info -->
     <div class="login-info">
         <span> <!-- User image size is adjusted inside CSS, it should stay as it -->
-            <a href="javascript:void(0);" id="#">
+            <a href="javascript:void(0);" id="username">
                 Jose  Valerin 
             </a>
         </span>
@@ -145,7 +133,6 @@
     <!-- end user info -->
 
     <!-- NAVIGATION : This navigation is also responsive
-..
     To make this navigation dynamic please make sure to link the node
     (the reference to the nav > ul) after page load. Or the navigation
     will not initialize.
@@ -155,7 +142,6 @@
         Please note that these links work a bit different than
         traditional href="" links. See documentation for details.
         -->
-
     <ul>
         <li class="">
             <a href="Buy-Sell.htm"> <div class="navicon-spacer"><i class="fa fa-lg fa-fw fa-circle"></i> </div> <span class="menu-item-parent" style="">Buy / Sell</span></a>
@@ -166,29 +152,27 @@
         </li>
 
         <li class="">
-
-            <a href="#"><div class="navicon-spacer"> <i class="fas fa-cogs" style="padding-left:3px;"></i></i> </div> <span class="menu-item-parent">My Wallet</span>
+            <a href="#"><div class="navicon-spacer"> <i class="fas fa-cogs" style="padding-left:3px;"></i></i> </div> <span class="menu-item-parent" style="">My Wallet</span>
             </a>
 
             <ul>
-                <li class="active">
-                    <a href="transactions-tabs.html"><i class="fab fa-bitcoin open"></i><span class="sub-menu-item open" style="vertical-align: middle; padding-left: 5px;"> CRYPTOCURRENCY</span></a>
+                <li class="">
+                    <a href="transactions-tabs.html"><i class="fab fa-bitcoin"></i><span class="sub-menu-item" style="vertical-align: middle; padding-left: 5px;"> CRYPTOCURRENCY</span></a>
                 </li>
 
                 <li class="">
                     <a href="transactions-tabs-debtcard.html"> <i class="fa fa-lg fa-fw fa-credit-card"></i> <span class="sub-menu-item" style="vertical-align: middle; padding-left: 5px;"> Debit Card</span>
                     </a>
                 </li>
-            </ul>
 
+            </ul>
         </li> 
 
-        <li class="">
+        <li class="active">
             <a href="buy-bitcoin.html"><i class="fab fa-btc" style="padding-left:3px;"></i> </div> <span class="menu-item-parent" style="padding-left:6px">Buy Bitcoin</span></a>
         </li>
 
         <li>
-
             <a href="#"><div class="navicon-spacer"><i style="padding-left:1px;" class="fas fa-credit-card fa-lg"></i></i></div><span class="menu-item-parent" style="padding-left:2.5px;">GIFT CARD TOKENS</span>
             </a>
 
@@ -200,11 +184,11 @@
                 <li class="">
                     <a href="token-transaction-history.html"><i id="icon-hover" class="fas fa-history" id="sub-menu-icons"></i><span class="sub-menu-item" style="vertical-align: middle; padding-left: 5px;">Redeem History</a>
                 </li>
+
             </ul>
         </li>
 
         <li>
-
             <a href="#"><div class="navicon-spacer"><i class="fa fa-lg fa-fw fa-credit-card"></i></div> <span class="menu-item-parent" style="">Debit Cards</span>
             </a>
 
@@ -220,12 +204,11 @@
                 <li class="">
                     <a href="debitcard-addfunds.html"><i id="icon-hover" class="fa fa-lg fa-fw fa-fw fa-plus-circle" id="sub-menu-icons"></i><span class="sub-menu-item" style="vertical-align: middle; padding-left: 5px;"> Add Funds</span></a>
                 </li>
-            </ul>
 
+            </ul>
         </li>
 
         <li>
-
             <a href="#"><div class="navicon-spacer"><i class="far fa-user fa-lg"></i></div> <span class="menu-item-parent" style="">My Profile</span>
             </a>
 
@@ -233,19 +216,14 @@
                 <li class="">
                     <a href="profile-verification.final.html"><i id="icon-hover" class="far fa-check-square fa-lg" id="sub-menu-icons"></i><span class="sub-menu-item" style="vertical-align: middle; padding-left: 5px;">User Verification</a>
                 </li>
-
-
                 <li class="">
                     <a href="profile-user-info.html"><i id="icon-hover" class="fa fa-lg fa-fw fa-fw fa-play" id="sub-menu-icons"></i><span class="sub-menu-item" style="vertical-align: middle; padding-left: 5px;">User Information</a>
                 </li>
             </ul>
-
         </li>            
 
         <li>
-
-            <a href="cryptocharge-sign-up.html"><div class="navicon-spacer"> <i class="fas fa-sign-out-alt fa-lg"></i> </div> <span class="menu-item-parent" style="">Logout</span></a>
-
+           <a href="cryptocharge-sign-up.html"><div class="navicon-spacer"> <i class="fas fa-sign-out-alt fa-lg"></i> </div> <span class="menu-item-parent" style="">Logout</span></a>
         </li>
     </ul>
 
@@ -269,10 +247,6 @@
 
     </aside>
 
-
-<!-- */// END OF NAVIGATION ///* -->
-
-
 <!-- MAIN PANEL -->
     <div id="main" role="main">
 
@@ -283,7 +257,7 @@
 
             <!-- breadcrumb -->
             <ol class="breadcrumb">
-                <li><a href="index.html">Home</a></li><li><span>Bitcoin Transactions</span></li>
+               <li><a href="index.html">Home</a></li><li><span style="">Buy Bitcoin</span></li>
             </ol>
             <!-- end breadcrumb -->
 
@@ -294,9 +268,11 @@
             </ul>
             <!-- end Send and Request Funds Buttons -->
         </div>
-        <!-- END RIBBON -->    
 
-<!-- Send funds pop-up -->
+
+
+
+    <!-- Send funds pop-up -->
     <div id="sendFunds" class="row funds-main sendfunds">
 
         <div class="row col-xs-10 col-md-6 funds-cointainer container">
@@ -527,13 +503,13 @@
                         </div>
                     </div>
 
-            <form class="row">
+            <form class="row" style="">
 
                 <div style="margin-bottom:5px;">
                     Currency:
                 </div>
                         <fieldset class="row">
-                            <div class="row">
+                            <div class="row" style="">
                                 <div class="col-xs-6 no-list-style no-padding">
                                     <li>
                                      
@@ -702,726 +678,499 @@
             <!-- END request funds pop-up -->
 
 
-
-    <!-- MAIN CONTENT -->
-<div id="content" class="summary-content-padding transactions-container container" style="width:100%;">
+<!-- MAIN CONTENT -->
+<div id="content" class="summary-content-padding">
 
         <!-- row -->
         <div class="row">
 
-            <div class="col-sm-12" style="padding:0px !important;">
+            <article class="col-sm-12" style="padding:0px !important;">
 
-<!-- PLEASE NOTE NOTIFICATION - START -->
+                <!-- NOTIFICATIONS START -->
                 <div class="alert alert-warning fade in txt-color-darker">
-
                     <i class="fa-fw fa fa-warning"></i>
                     <strong>Please Note:</strong> By using CryptoCharge you agree to be legally bound by our <a href="#" target="_blank" style="color:#757575!important;"><strong><u>Terms Of Service</u></strong></a> and all terms incorporated by reference.
                     <button class="close close-alert" data-dismiss="alert">
                         ×
                     </button>
-
                 </div>
 
-            </div>
+            </article>
 
         </div>
 
-<!-- PLEASE NOTE NOTIFICATION - END -->
+    <div class="row" style="">
 
-<div class="wallet-crypto-container">
+        <div class="heading-title"> BUY BITCOIN </div>
+
+    </div>
+
+    <div class="buy-bitcoin-container" style="">
+
+       <!--  <div class="option-1-container"> -->
 
     <div class="row" id="outer-row">
-     
-            <div class="section-title"> SELECT A CRYPTOCURRENCY </div>
 
-            <div class="row" id="select-crypto-row">
+        <div class="section-title"> OPTION 1: BITCOIN GIFT CARDS </div>
 
-<!-- */// BITCOIN (BTC) ///* -->
+        <div class="row" id="bitcoin-gift-card-row">
 
-                <div class="col-lg-3" id="select-bitcoin-div">
-
-                <div class="row" id="show-bitcoin">
-
-                            <div class="row">
-
-                                <h1 id="crypto-title"> <strong> Bitcoin (BTC) </strong> </h1>
-
-                            </div>
-
-                            <div class="row">
-
-                                <div class="col-lg-6" id="fadein">
-
-                                    <img class="img-responsive" class="img-thumbnail" alt="Responsive image" src="img/bt-currency.png" style="max-height:70px;max-width:70px;margin:0 auto;">
-
-                                </div>
-
-                                <div class="col-lg-6">
- 
-                                    <h1 class="debit-balance"> 0.005323 </h1>
-                            
-                                    <p class="debit-balance-text"> Balance </p>
-                        
-                                </div>
-
-                            </div> 
-
-                </div> <!-- ending row for black border --> 
-
-                </div> <!-- end for "select-bitcoin-div" --> 
-
-<!-- */// BITCOIN (BTC) ///* -->
-
-<!-- */// ETHEREUM (ETC)  ///* -->
-            
-                <div class="col-lg-3" id="select-ethereum-div">
-
-                <div class="row" id="show-ethereum">
-
-                            <div class="row">
- 
-                                <h1 id="crypto-title"> <strong> Ethereum (ETC) </strong> </h1>
-
-                            </div>
-
-                            <div class="row">
-
-                                <div class="col-lg-6" id="fadein">
-
-                                    <img class="img-responsive" alt="Responsive image" src="https://azurecomcdn.azureedge.net/mediahandler/acomblog/media/Default/blog/a2bcf4f8-9a5d-4f85-873b-cf94ce537eb0.png" style="max-height:70px;max-width:70px;margin:0 auto;">
-
-                                </div>
-
-                                <div class="col-lg-6">
-
-                                    <h1 class="debit-balance"> 23.1234 </h1>
-                       
-                                    <p class="debit-balance-text"> Balance </p>
-
-                                </div>
-
-                            </div> 
-
-                </div> <!-- ending row for #ddd border -->
-                
-                </div> <!-- end for "select-ethereum-div" -->
-
-<!-- */// ETHEREUM (ETC)  ///* -->
-
-<!-- */// BITCOIN CASH (BCH)  ///* -->
-
-                <div class="col-lg-3" id="select-btcash-div">
-
-                <div class="row" id="show-btcash">
-
-                            <div class="row">
-
-                                <h1 id="crypto-title"> <strong> Bitcoin Cash (BCH) </strong> </h1>
-
-                            </div>
-
-                            <div class="row">
-
-                                <div class="col-lg-6" id="fadein">
-
-                                    <img class="img-responsive" alt="Responsive image" src="https://bitcoinchaser.com/wp-content/uploads/2017/12/bitcoin-cash-cryptocurrency-big-icon-350x350-compressor.png" style="max-height:70px;max-width:70px;margin:0 auto;">
-
-                                </div>
-
-                                <div class="col-lg-6">
-
-                                    <h1 class="debit-balance"> 23.1234 </h1>
-                 
-                                    <p class="debit-balance-text"> Balance </p>
-
-                                </div>
-
-                            </div> 
-
-                </div> <!-- ending row for #ddd border -->               
-
-                </div> <!-- end for "select-btcash-div" -->
-
-<!-- */// BITCOIN CASH (BCH)  ///* -->
-
-<!-- */// DASH (Dash)  ///* -->
-
-                <div class="col-lg-3" id="select-dash-div">
-
-                <div class="row" id="show-dash">
-
-                        <div class="row">       
-
-                            <h1 id="crypto-title"> <strong> Dash (DASH) </strong> </h1>
-
-                        </div>
-
-                        <div class="row">
-
-                            <div class="col-lg-6" id="fadein">
-
-                                <img class="img-responsive" alt="Responsive image" src="https://bitcoinchaser.com/wp-content/uploads/2017/03/dashcoin-300x300.png" style="max-height:70px;max-width:70px;margin:0 auto;">
-
-                            </div>
-
-                            <div class="col-lg-6">
-
-                                <h1 class="debit-balance"> 23.1234 </h1>
-                            
-                                <p class="debit-balance-text"> Balance </p>
-
-                            </div>
-
-                        </div> 
-
-                </div> <!-- ending row for #ddd border -->
-
-                </div> <!-- end for "select-dash-div" -->
+            <p> Visit <a href="http://www.bitcoingiftcards.naodesign.ca/" target="_blank"> <strong> Bitcoin Gift Cards </strong> </a> to buy gift cards worth up to $500 dollars </p>                
 
         </div>
 
-<!-- */// DASH (Dash)  ///* -->
+        <div class="row" id="bitcoin-option-row">
 
-<!-- */// WALLET FUNDS ROW ///* -->
+                <div class="col-md-2" id="icon-div">
 
-    <div class="row" id="wallet-funds">
-
-        <div class="col-lg-3" id="wallet-balance">
-
-            <h1 class="wallet-balance-title"> <strong> Balance </strong> </h1>
-
-            <h1 class="wallet-balance-number"> 0.00532 </h1>
-
-        </div>
-
-        <div class="col-lg-3" id="wallet-balance">
-
-            <h1 class="wallet-balance-title"> <strong> Currency Balance </strong> </h1>
-
-            <h1 class="wallet-balance-number"> $273.32 </h1>
-
-        </div>
-
-        <div class="col-lg-3" id="wallet-balance">
-
-            <h1 class="wallet-balance-title"> <strong> Current Bitcoin Price </strong> </h1>
-
-            <h1 class="wallet-balance-number"> $11,329.12 </h1>
-              
-        </div>
-
-<!-- */// WALLET FUNDS ROW ///* -->
-
-    </div> <!-- end for grey "outer-row" -->
-
-    </div> <!-- end for wallet row -->
-
-   
-<!-- ////    WALLET TRANSACTION HEADER - START  //// -->
-
-
-    <div class="section-title">
-
-        BITCOIN TRANSACTIONS
-   
-    </div>
-
-    <div class="row col-xs-12 no-padding" id="wallet-transaction-nav-bar">
-
-        <ul class="nav nav-tabs col-xs-12 row no-padding">
-
-<!-- */// CALENDER DATE RANGE PICKER ///*
- -->
-
-            <li class="col-sm-3 col-xs-12 no-padding wallet-tab" style="">
-                <section>
-                    <div id="reportrange2" class="pull-left calender ">
-                            <i class="glyphicon glyphicon-calendar fa fa-calendar"></i>
-                            <span>November 1, 2017 - November 17, 2017</span> <b class="caret"></b>
-                    </div>
-           
-                </section>
-            </li>
-
-<!-- */// CALENDER DATE RANGE PICKER ///*
- -->
-
-            <li class="col-sm-9 col-xs-12 table-tabs-container"> 
-
-                <ul class="no-list-style row nav nav-tabs table-tabs" >
-                    <li class="active line-height38">             
-                        <a data-toggle="tab" href="#menu1"><span class="trans-nav">ALL</span></a>    
-                    </li>
-                
-                    <li class="line-height38">                  
-                        <a data-toggle="tab" href="#menu2"><span class="trans-nav">SENT</span></a>
-                    </li>
-         
-                    <li class="line-height38">
-                        <a data-toggle="tab" href="#menu3"><span class="trans-nav">RECEIVED</span></a>
-                    </li>
-            
-                    <li class="line-height38">
-                        <a data-toggle="tab" href="#menu4"><span class="trans-nav">ACCOUNT ADDRESS</span></a>
-                    </li>
-            
-                    <li style="padding-left:10px;">
-                        <div class="">
-                            <button type="button" id="trans-nav" class="btn btn-default" data-toggle="modal" data-target="#ExportHistory">
-                            <i class="fa fa-download fa-2x" aria-hidden="true"></i>
-                            </button>
-                        </div>
-                    </li>
-                </ul>
-
-            </li>
-
-        </ul> 
-
-    </div>
-
-    <select class="mobile-option input-sm" id="mobile-dropdown"> 
-                    <option id="allTab" value="all" data-toggle="tab" href="#menu1" selected="selected">ALL</option> 
-                    <option id="sentTab" value="all" data-toggle="tab" href="#menu2" selected="selected">SENT</option> 
-                    <option id="receivedTab" value="all" data-toggle="tab" href="#menu3" selected="selected">RECEIVED</option> 
-                    <option id="address" value="address" data-toggle="tab" href="#menu4">ACCOUNT ADDRESS</option> 
-    </select> 
-
-
-<!-- ////    WALLET TRANSACTION HEADER - END  //// -->
-
-
-<!-- ////    WALLET TRANSACTION TABLE - START  //// -->
-
-        
-    <div class="col-xs-12 no-padding tab-content">
-        <div class="tab-pane fade active in all" id="menu1">
-            <div class="center-block">
-
-                <div class="row" style="padding-top:1em;">
-                    <div class="col-sm-3 no-padding" style="">     
-
-                     <div class="download-mobile">
-                                <button type="button" id="trans-nav" class="btn btn-default" data-toggle="modal" data-target="#ExportHistory">
-                                <i class="fa fa-download" aria-hidden="true"></i>
-                                </button>
-                        </div>
+                    <div class="col-lg-4" style="padding:1em;">
+                        <i class="far fa-clock fa-4x"></i>
                     </div>
 
+                    <div class="col-lg-8" style="padding-top:1em;">
+                        <p> Fast and simple checkout process - no additional fees </p>
+                    </div>  
 
                 </div>
+
+                <div class="col-md-2">
+
+                </div>
+
+                <div class="col-md-2" id="icon-div">
+
+                    <div class="col-lg-4" style="padding:1em;">
+                        <i class="fas fa-shield-alt fa-4x"></i>
+                    </div>
+
+                    <div class="col-lg-8" style="padding-top:1em;">
+                        <p> Claim bitcoins by using a unique redeption code </p>
+                    </div>
+
+                </div>
+
+                    <div class="col-md-2">
+
+                    </div>
+
+                <div class="col-md-2" id="icon-div">
+
+                    <div class="col-lg-4" style="padding:1em;">
+                        <i class="far fa-credit-card fa-4x"></i>
+                    </div>
+
+                    <div class="col-lg-8" style="padding-top:1em;">
+                        <p> Pay using your Visa or Mastercard </p>
+                    </div>
+
+                </div>
+
+        </div> <!-- end of bitcoin option row -->
+
+    </div> <!-- end of outer #ddd row -->
+
+    <br>
+
+    <div class="row" id="outer-row">
+
+        <div class="section-title"> OPTION 2: BUY BITCOIN VIA WIRE TRANSFER </div>
+
+        <div class="row">
+
+            <p> Visit <strong> <a href="http://www.bitcoingiftcards.naodesign.ca" target="_blank"> Bitcoin Gift Cards </strong> </a> to buy gift cards worth up to $500 dollars </p>                
+                   
+        </div>
+
+        <div class="row" style="">
+
+            <p> To purchase bitcoin via wire transfer, please fill out the form below and click Submit. This will generate a PDF file you can print out and provide to your bank containing all of the information they require to submit a Wire payment. If you need assistance please <br> <a href="#"><strong> Click Here To Contact Support </strong></a> </p>      
+       
+        </div>
+
+        <div class="section-title"> Account Details </div>
+
+            <div class="row-user">
+
+                <div class="form-horizontal">
+
+                    <div class="form-group">
+
+                        <div class="col-lg-4">
+
+                                <label for="inputSalutation" class="control-label">Name of Bank Account Holder</label>
+
+                            </div>
+
+                            <div class="col-lg-8">
+
+                                <fieldset disabled="">
+                                    <div class="form-group" style="padding-right:0em;">
+                                    <input type="text" id="disabledTextInput" class="form-control" placeholder="Super Bank">
+                                    </div>
+                                </fieldset>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- end of row div -->
+
+                <div class="row-user">
+
+                    <div class="form-horizontal">
+
+                        <div class="form-group">
+
+                            <div class="col-lg-4">
+
+                                <label for="inputSalutation" class="control-label">Country</label>
+
+                            </div>
+
+                            <div class="col-lg-8 no-padding">
+
+                                <select class="custom-select" style="height:2.5em;width:100%;padding-left:0.5em">
+                                            <option value="1">Canada</option>
+                                            <option value="2">United States</option>
+                                            <option value="3">Australia</option>
+                                            <option value="4">China</option>
+                                </select>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="row-user">
+
+                    <div class="form-horizontal">
+
+                        <div class="form-group">
+
+                            <div class="col-lg-2">
+
+                                <label for="inputSalutation" class="control-label">Amount</label>
+
+                            </div>
+
+                            <div class="col-lg-2 col-lg-offset-2">
+
+                                <fieldset disabled="">
+                                    <div class="form-group" style="padding-right:0em;">
+                                    <input type="text" id="disabledTextInput" class="form-control" placeholder="$5000.00">
+                                    </div>
+                                </fieldset>                        
+
+                            </div>
+
+                            <div class="col-lg-1 no-padding">
+
+                                <select class="custom-select" style="height:2.5em;width:100%;padding-left:0.5em">
+                                            <option value="1">USD</option>
+                                            <option value="2">CAD</option>
+                                            <option value="3">EURO</option>
+                                            <option value="4">AUD</option>
+                                </select>
+
+                            </div>
+
+                            <div class="col-lg-4 col-lg-offset-1">
+
+                                <fieldset disabled="">
+                                    <div class="form-group" style="padding-right:0em;">
+                                    <input type="text" id="disabledTextInput" class="form-control" placeholder="0.55555">
+                                    </div>
+                                </fieldset>                        
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- end of row div -->
+
+                <div class="row-user">
+
+                    <div class="form-horizontal">
+
+                        <div class="form-group">
+
+                            <div class="col-lg-4">
+
+                                <label for="inputSalutation" class="control-label">Bank Account Number</label>
+
+                            </div>
+
+                            <div class="col-lg-8">
+
+                                <!-- <fieldset disabled=""> -->
+                                    <div class="form-group" style="padding-right:0em;">
+                                    <input type="text" id="disabledTextInput" class="form-control" placeholder="9876564124">
+                                    </div>
+                               <!--  </fieldset> -->    
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- end of row div -->
+
+                <div class="row-user">
+
+                    <div class="form-horizontal">
+
+                        <div class="form-group">
+
+                            <div class="col-lg-4">
+
+                                <label for="inputSalutation" class="control-label">Bank Transit Number</label>
+
+                            </div>
+
+                            <div class="col-lg-8">
+
+                                <!-- <fieldset disabled=""> -->
+                                    <div class="form-group" style="padding-right:0em;">
+                                    <input type="text" id="disabledTextInput" class="form-control" placeholder="1254">
+                                    </div>
+                               <!--  </fieldset> -->    
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- end of row div -->
+
+                <div class="row-user">
+
+                    <div class="form-horizontal">
+
+                        <div class="form-group">
+
+                            <div class="col-lg-4">
+
+                                <label for="inputSalutation" class="control-label">Bank Name</label>
+
+                            </div>
+
+                            <div class="col-lg-8">
+
+                                    <div class="form-group" style="padding-right:0em;">
+                                    <input type="text" id="disabledTextInput" class="form-control" placeholder="Super Bank">
+                                    </div>                            
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- end of row div -->
+
+                <div class="row-user">
+
+                    <div class="form-horizontal">
+
+                        <div class="form-group">
+
+                            <div class="col-lg-4">
+
+                                <label for="inputSalutation" class="control-label">Bank Address 1</label>
+
+                            </div>
+
+                            <div class="col-lg-8">
+
+                                    <div class="form-group" style="padding-right:0em;">
+                                    <input type="text" id="disabledTextInput" class="form-control" placeholder="1234-D Speing">
+                                    </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- end of row div -->
+
+                <div class="row-user">
+
+                    <div class="form-horizontal">
+
+                        <div class="form-group">
+
+                            <div class="col-lg-4">
+
+                                <label for="inputSalutation" class="control-label">Bank Address 2</label>
+
+                            </div>
+
+                            <div class="col-lg-8">
+
+                                    <div class="form-group" style="padding-right:0em;">
+                                    <input type="text" id="disabledTextInput" class="form-control" placeholder="">
+                                    </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- end of row div -->
+
+                <div class="row-user">
+
+                    <div class="form-horizontal">
+
+                        <div class="form-group">
+
+                            <div class="col-lg-4">
+
+                                <label for="inputSalutation" class="control-label">City</label>
+
+                            </div>
+
+                            <div class="col-lg-8">
+
+                                    <div class="form-group" style="padding-right:0em;">
+                                    <input type="text" id="disabledTextInput" class="form-control" placeholder="Singapore">
+                                    </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- end of row div -->
+
+                <div class="row-user">
+
+                    <div class="form-horizontal">
+
+                        <div class="form-group">
+
+                            <div class="col-lg-4">
+
+                                <label for="inputSalutation" class="control-label">Postal/Zip Code</label>
+
+                            </div>
+
+                            <div class="col-lg-8">
+
+                                    <div class="form-group" style="padding-right:0em;">
+                                    <input type="text" id="disabledTextInput" class="form-control" placeholder="H2X1C4">
+                                    </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- end of row div -->
+
+                <div class="row-user">
+
+                    <div class="form-horizontal">
+
+                        <div class="form-group">
+
+                            <div class="col-lg-4">
+
+                                <label for="inputSalutation" class="control-label">Memo 
+
+                                    <br>
+
+                                    <p style="font-style:italic;"> Please include your user name, e-mail address, or account ID in the Memo field </p>
+
+                                </label>
+
+                            </div>
+
+                            <div class="col-lg-8">
+
+                                    <div class="form-group">
+
+                                    <!-- <textarea class="form-control" rows="10" id="comment"></textarea> -->
+
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
+
+                                    </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- end of row div -->
+
+                <hr>
 
                 <div class="row">
 
-                    <table class="table transactions-table" style="border:1px solid #ddd;">
-                      <thead>
-                        <tr style="border-bottom:1px grey solid">
-                            <th bgcolor="white">Date</th>
-                            <th bgcolor="white"></th>
-                            <th bgcolor="white">To</th>
-                            <th bgcolor="white">From</th>
-                            <th bgcolor="white">Description</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr class="receivedColum">
-                            <th scope="row">Dec 02, 03:55PM</th>
-                            <td><p class="received">RECEIVED</p> 
-                                <div class="" id="received">10.43278345 BTC</div></td>
-                            <td>My Wallet 1</td>
-                            <td>4584654687485454781864ede54fasdaaetdf</td>
-                            <td>
-                            <i style="padding-bottom:15px;" class="far fa-keyboard"></i>    
-                            <textarea style="background:transparent;" placeholder="Add A Description"></textarea>
-                            
-                            <!-- <i class="far fa-keyboard"></i>   -->  
+                    <div class="col-lg-12">
 
-                            </td>
-                        </tr>
-                        <tr class="sentColum">
-                           <th scope="row">Dec 07, 08:55PM</th>
-                           <td><p class="sent">SENT</p>
-                                <div class="" id="sent">0.432783 BTC</div></td>
-                            <td>4khjkhk4781864ede54fasdaaetdf</td>
-                            <td>My Bitcoin Wallet</td>
-                            <td><textarea style="background:transparent;" placeholder="Add A Description"></textarea></td>
-                        </tr>
-                        <tr class="receivedColum">
-                            <th scope="row">Dec 11, 08:55PM</th>
-                            <td><p class="received">RECEIVED</p> 
-                                <div class="" id="received">0.432783 BTC</div></td>
-                            <td>e54fasdaae35454</td>
-                             <td>My Bitcoin Wallet</td>
-                            <td><textarea style="background:transparent;" placeholder="Add A Description"></textarea></td>
-                        </tr>
-                        <tr class="sentColum">
-                            <th scope="row">Dec 11, 09:55PM</th>
-                            <td><p class="sent">SENT</p> 
-                                <div class="" id="sent">0.432783 BTC</div></td>
-                            <td>e54fasdaae5722</td>
-                            <td>4584654687485454781864ede54fasdaaetdf</td>
-                            <td><textarea style="background:transparent;" placeholder="Add A Description"></textarea></td>
-                        </tr>
-                        <tr class="receivedColum">
-                            <th scope="row">Dec 12, 11:55PM</th>
-                            <td><p class="received">RECEIVED</p>
-                                <div class="" id="received">0.432783 BTC</div></td>
-                            <td>e54fasdaae1231afadas4h23jkk</td>
-                            <td>My Wallet2</td>
-                            <td><textarea style="background:transparent;" placeholder="Add A Description"></textarea></td>
-                        </tr>
-                        <tr class="sentColum">
-                            <th scope="row">Dec 12, 11:55PM</th>
-                            <td><p class="sent">SENT</p> 
-                                <div class="" id="sent">0.432783 BTC</div></td>
-                            <td>My Wallet1</td>
-                            <td>4584654687485454781864ede54fasdaaetdf</td>
-                            <td><textarea style="background:transparent;" placeholder="Add A Description"></textarea></td>
-                        </tr>
-                      </tbody>
-                    </table>
+                        <p> After clicking submit please print the PDF file and take the print-out to your bank </p>
 
-                </div>
+                        <div id="submit-pdf" style="display:flex;justify-content:center;">
 
-            </div>
-        </div> <!-- ending div for row -->
-
-        <div id="menu2" class="tab-pane fade account-ad address">
-
-            <table class="table table-striped" style="border:1px solid #ddd;">
-
-                <thead>
-                    <tr style="border-bottom:1px grey solid">
-                        <th bgcolor="white">Date</th>
-                        <th bgcolor="white"></th>
-                        <th bgcolor="white">To</th>
-                        <th bgcolor="white">From</th>
-                        <th bgcolor="white">Description</th>
-                    </tr>
-                </thead>
-
-                <tbody>
-                        <tr class="sentColum">
-                           <th scope="row">Dec 07, 08:55PM</th>
-                           <td><p class="sent">SENT</p>
-                                <div class="" id="sent">0.432783 BTC</div></td>
-                            <td>4khjkhk4781864ede54fasdaaetdf</td>
-                            <td>My Bitcoin Wallet</td>
-                            <td></td>
-                        </tr>
-                        <tr class="sentColum">
-                           <th scope="row">Dec 07, 08:55PM</th>
-                           <td><p class="sent">SENT</p>
-                                <div class="" id="sent">0.432783 BTC</div></td>
-                            <td>4khjkhk4781864ede54fasdaaetdf</td>
-                            <td>My Bitcoin Wallet</td>
-                            <td></td>
-                        </tr>
-                        <tr class="sentColum">
-                           <th scope="row">Dec 07, 08:55PM</th>
-                           <td><p class="sent">SENT</p>
-                                <div class="" id="sent">0.432783 BTC</div></td>
-                            <td>4khjkhk4781864ede54fasdaaetdf</td>
-                            <td>My Bitcoin Wallet</td>
-                            <td></td>
-                        </tr>
-                        <tr class="sentColum">
-                           <th scope="row">Dec 07, 08:55PM</th>
-                           <td><p class="sent">SENT</p>
-                                <div class="" id="sent">0.432783 BTC</div></td>
-                            <td>4khjkhk4781864ede54fasdaaetdf</td>
-                            <td>My Bitcoin Wallet</td>
-                            <td></td>
-                        </tr>
-                </tbody>
-
-            </table>
-
-        </div>
-
-        <div id="menu3" class="tab-pane fade account-ad address">
-
-            <table class="table table-striped" style="border:1px solid #ddd;">
-
-                <thead>
-                    <tr style="border-bottom:1px grey solid">
-                        <th bgcolor="white">Date</th>
-                        <th bgcolor="white"></th>
-                        <th bgcolor="white">To</th>
-                        <th bgcolor="white">From</th>
-                        <th bgcolor="white">Description</th>
-                    </tr>
-                </thead>
-
-                <tbody>
-                        <tr class="receivedColum">
-                            <th scope="row">Dec 12, 11:55PM</th>
-                            <td><p class="received">RECEIVED</p>
-                                <div class="" id="received">0.432783 BTC</div></td>
-                            <td>e54fasdaae1231afadas4h23jkk</td>
-                            <td>My Wallet2</td>
-                            <td></td>
-                        </tr>
-
-                        <tr class="receivedColum">
-                            <th scope="row">Dec 12, 11:55PM</th>
-                            <td><p class="received">RECEIVED</p>
-                                <div class="" id="received">0.432783 BTC</div></td>
-                            <td>e54fasdaae1231afadas4h23jkk</td>
-                            <td>My Wallet2</td>
-                            <td></td>
-                        </tr>
-
-                        <tr class="receivedColum">
-                            <th scope="row">Dec 12, 11:55PM</th>
-                            <td><p class="received">RECEIVED</p>
-                                <div class="" id="received">0.432783 BTC</div></td>
-                            <td>e54fasdaae1231afadas4h23jkk</td>
-                            <td>My Wallet2</td>
-                            <td></td>
-                        </tr>
-
-                        <tr class="receivedColum">
-                            <th scope="row">Dec 12, 11:55PM</th>
-                            <td><p class="received">RECEIVED</p>
-                                <div class="" id="received">0.432783 BTC</div></td>
-                            <td>e54fasdaae1231afadas4h23jkk</td>
-                            <td>My Wallet2</td>
-                            <td></td>
-                        </tr>
-                        
-                </tbody>
-
-            </table>
-
-        </div>
-
-
-        <div id="menu4" class="tab-pane fade account-ad address">
-
-            <div class="row">
-
-                <table class="table table-striped" style="border:1px solid #ddd;">
-                    <tbody>
-                        <tr>
-                            <th scope="row">12DNDAkdzdDKLJDIYDNHDEE7pi</th>
-                        </tr>
-                        <tr>
-                            <th scope="row">12DNDAkdzdDKLJDIYDNHDEE7pi</th>
-                        </tr>
-                        <tr>
-                            <th scope="row">12DNDAkdzdDKLJDIYDNHDEE7pi</th>
-                        </tr>
-                        <tr>
-                            <th scope="row">12DNDAkdzdDKLJDIYDNHDEE7pi</th>
-                        </tr>
-                        <tr>
-                            <th scope="row">12DNDAkdzdDKLJDIYDNHDEE7pi</th>
-                        </tr>
-                        <tr>
-                            <th scope="row">12DNDAkdzdDKLJDIYDNHDEE7pi</th>
-                        </tr>
-                        <tr>
-                            <th scope="row">12DNDAkdzdDKLJDIYDNHDEE7pi</th>
-                        </tr>
-                        <tr>
-                            <th scope="row">12DNDAkdzdDKLJDIYDNHDEE7pi</th>
-                        </tr>
-                        <tr>
-                            <th scope="row">12DNDAkdzdDKLJDIYDNmettaHDEE7pi</th>
-                        </tr>
-                    </tbody>
-                </table>
-
-            </div>
-              
-        </div> <!-- ending div for menu4 -->
-
-<!-- ////    WALLET TRANSACTION TABLE - END  //// -->
-
-
-</div>
-
-</div>
-
-
-<!-- Button trigger modal -->
-
-             
-<script>
-
-$(".modal-wide").on("show.bs.modal", function() {
-  var height = $(window).height() - 200;
-  $(this).find(".modal-body").css("max-height", height);
-});
-
-</script>
-
-<div class="row">
-
-<div class="modal fade" id="ExportHistory" role="dialog">
-    <div class="modal-dialog">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-
-          <h4 class="modal-title">Export History</h4>
-
-        </div>
-
-        <div class="modal-body">
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <select class="input-sm" name="bt-wallet" id="bt-wallet-dropdown" style="width:100%">
-                    <option value="1" rel="exchange-btc">All Bitcoin Wallet (0)BTC</option>
-                    <option value="2" rel="exchange-dash">BTC</option>
-                    <option value="3" rel="exchange-pura">ETC</option>
-                    <option value="4" rel="exchange-pura">BCH</option>
-                    <option value="3" rel="exchange-pura">DASH</option>
-                    </select>
-                </div>
-            </div>
-
-            <div class="row" style="padding-top:1em;">
-                <div class="col-lg-5">
-                    <div id="reportrange2" class="pull-left" style="background: none repeat scroll 0% 0% rgb(255, 255, 255); color: rgb(0, 0, 0); cursor: pointer; border: 1px solid rgb(204, 204, 204); margin: 0px 0px 15px 1px; line-height: 28px; padding: 2px 10px 0px; height: 35px; width: 255px;">
-                    <i class="glyphicon glyphicon-calendar fa fa-calendar"></i>
-                    <span>January 1, 2018 - January 17, 2018</span> 
-                    <b class="caret"></b>
-                    </div>
-                </div>
-
-                <div class="col-lg-2">
-                    <div class="" style="padding-top:1em;text-align:center;">
-                        <i class="fa fa-arrow-right fa-3x" aria-hidden="true" style="text-align:center;"></i>
-                    </div>
-
-                </div>
-
-                <div class="col-lg-5 pull-right" style="">
-                    <div id="reportrange2" class="pull-right" style="background: none repeat scroll 0% 0% rgb(255, 255, 255); color: rgb(0, 0, 0); cursor: pointer; border: 1px solid rgb(204, 204, 204); margin: 0px 0px 15px 1px; line-height: 28px; padding: 2px 10px 0px; height: 35px; width: 255px;margin:right;">
-                    <i class="glyphicon glyphicon-calendar fa fa-calendar"></i>
-                    <span>January 1, 2018 - January 17, 2018</span> 
-                    <b class="caret"></b>
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-
-        <div class="modal-footer">
-          <button type="button" id="close-btn" data-dismiss="modal" class="btn-lg btn-default">Close</button>
-          <button type="button" class="btn-lg btn-primary" style="color:#F5F7F9;">Export</button>
-        </div>
-
-      </div>
-      
-    </div>
-  </div>
-  
-</div>
-    
-
-
-</div>    <!-- //// ending div for content    //// --> 
-
-<!-- */
-*== MODAL FOR GET NEW BITCOIN ADDRESS - START ==
-*/ -->
-
-<!-- Modal for GET NEW BITCOIN ADDRESS -->
-<div id="myModal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title">Success!</h4>
-      </div>
-      <div class="modal-body">
-        <p style="text-align:left;">This New Bitcoin Address has been added to your list of account addresses</p>
-        <input class="form-control" type="text" style="border-style:none;" placeholder="3.142421qqw2DNDAkdzdDKL24231JDIYDNHDEE7pi" readonly>
-
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-primary btn-lg" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-
-  </div>
-</div>
-
-</div>
-
-<!-- */
-*== MODAL FOR GET NEW BITCOIN ADDRESS - END ==
-*/ -->
-
-
-        <!-- widget grid -->
-        <section id="widget-grid" class="" style="clear:both;">
-
-
-            <!-- row -->
-                    
-            <div class="row">
-
-                <!-- new widget -->
-                <div class="jarviswidget graph-buy-sell-option" id="wid-id-0" data-widget-togglebutton="false" data-widget-editbutton="false" data-widget-fullscreenbutton="false" data-widget-colorbutton="false" data-widget-deletebutton="false">
-
-                    <!-- widget div-->
-                    <div class="no-padding row">
-
-                        <!-- widget edit box -->
-                        <div class="jarviswidget-editbox">
+                        <a href="https://contattafiles.s3-us-west-1.amazonaws.com/tnt1772/0YSEwKDzATb6yi7/Wire-Requisition-Super-Bank-02-02-18.pdf" target="_blank">
+                        <button class="btn btn-primary" id="submit-buy-bc-button">SUBMIT</button>
+                        </a>
 
                         </div>
-                                
-                            <!-- end widget edit box -->
 
-                                
-                            </div>                
-
-
-                                    <!-- end content -->
-                            </div>
-
-                        <!-- Order Book Start-->
-                        
-                        
-
-                        </article>
-                        <!-- Ordder Book END -->
-
-                        <!-- Order Book Start-->
-                        
-                        <!-- Ordder Book END -->
-                        </div>
-                            <!-- end widget div -->
                     </div>
-                        <!-- end widget -->
+
                 </div>
 
-            </div>
+
+
+            </div>    
 
         </div>
-        <!-- end row -->
 
+    </div>
 
-
-</section>
-<!-- end widget grid -->
+</div>        
 
 </div>
 <!-- END MAIN CONTENT -->
 
 </div>
         <!-- END MAIN PANEL -->
-
-
 
         <!-- Type Identifier -->
         <span id="report_type" style="display:none">date</span>
@@ -1432,93 +1181,93 @@ $(".modal-wide").on("show.bs.modal", function() {
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <!--================================================== -->
-                <!-- Link to Google CDN's jQuery + jQueryUI; fall back to local -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-        <script>
-            if (!window.jQuery) {
-                document.write('<script src="js/libs/jquery-2.1.4.min.js"><\/script>');
-            }
-        </script>
+        <!-- Link to Google CDN's jQuery + jQueryUI; fall back to local -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script>
+			if (!window.jQuery) {
+				document.write('<script src="js/libs/jquery-2.1.4.min.js"><\/script>');
+			}
+		</script>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
-        <script>
-            if (!window.jQuery.ui) {
-                document.write('<script src="js/libs/jquery-ui-1.10.3.min.js"><\/script>');
-            }
-        </script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+		<script>
+			if (!window.jQuery.ui) {
+				document.write('<script src="js/libs/jquery-ui-1.10.3.min.js"><\/script>');
+			}
+		</script>
 
-        <!-- JS TOUCH : include this plugin for mobile drag / drop touch events
-        <script src="js/plugin/jquery-touch/jquery.ui.touch-punch.min.js"></script> -->
+		<!-- JS TOUCH : include this plugin for mobile drag / drop touch events
+		<script src="js/plugin/jquery-touch/jquery.ui.touch-punch.min.js"></script> -->
 
         <!-- Dropdown for chart -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 
-        <!-- BOOTSTRAP JS -->
-        <script src="js/bootstrap/bootstrap.min.js"></script>
+		<!-- BOOTSTRAP JS -->
+		<script src="js/bootstrap/bootstrap.min.js"></script>
 
         <script src="js/plugin/colorpicker/bootstrap-colorpicker.min.js"></script>
 
 
-        <!-- CUSTOM NOTIFICATION -->
-        <script src="js/notification/SmartNotification.min.js"></script>
+		<!-- CUSTOM NOTIFICATION -->
+		<script src="js/notification/SmartNotification.min.js"></script>
 
-        <!-- JARVIS WIDGETS -->
-        <script src="js/smartwidgets/jarvis.widget.min.js"></script>
+		<!-- JARVIS WIDGETS -->
+		<script src="js/smartwidgets/jarvis.widget.min.js"></script>
 
-        <!-- EASY PIE CHARTS -->
-        <script src="js/plugin/easy-pie-chart/jquery.easy-pie-chart.min.js"></script>
+		<!-- EASY PIE CHARTS -->
+		<script src="js/plugin/easy-pie-chart/jquery.easy-pie-chart.min.js"></script>
 
-        <!-- SPARKLINES -->
-        <script src="js/plugin/sparkline/jquery.sparkline.min.js"></script>
+		<!-- SPARKLINES -->
+		<script src="js/plugin/sparkline/jquery.sparkline.min.js"></script>
 
-        <!-- JQUERY VALIDATE -->
-        <script src="js/plugin/jquery-validate/jquery.validate.min.js"></script>
-        <script src="js/plugin/jquery-validate/additional-methods.js"></script>
+		<!-- JQUERY VALIDATE -->
+		<script src="js/plugin/jquery-validate/jquery.validate.min.js"></script>
+		<script src="js/plugin/jquery-validate/additional-methods.js"></script>
 
-        <!-- JQUERY MASKED INPUT -->
-        <script src="js/plugin/masked-input/jquery.maskedinput.min.js"></script>
+		<!-- JQUERY MASKED INPUT -->
+		<script src="js/plugin/masked-input/jquery.maskedinput.min.js"></script>
 
-        <!-- JQUERY SELECT2 INPUT -->
-        <script src="js/plugin/select2/select2.min.js"></script>
+		<!-- JQUERY SELECT2 INPUT -->
+		<script src="js/plugin/select2/select2.min.js"></script>
 
-        <!-- JQUERY UI + Bootstrap Slider -->
-        <script src="js/plugin/bootstrap-slider/bootstrap-slider.min.js"></script>
+		<!-- JQUERY UI + Bootstrap Slider -->
+		<script src="js/plugin/bootstrap-slider/bootstrap-slider.min.js"></script>
 
-        <!-- browser msie issue fix -->
-        <script src="js/plugin/msie-fix/jquery.mb.browser.min.js"></script>
+		<!-- browser msie issue fix -->
+		<script src="js/plugin/msie-fix/jquery.mb.browser.min.js"></script>
 
-        <!-- SmartClick: For mobile devices -->
-        <script src="js/plugin/smartclick/smartclick.js"></script>
+		<!-- SmartClick: For mobile devices -->
+		<script src="js/plugin/smartclick/smartclick.js"></script>
 
-        <script src="js/jquery.cookie.js"></script>
+		<script src="js/jquery.cookie.js"></script>
         <!-- Copy jQuery -->
         <script src="https://cdn.jsdelivr.net/npm/clipboard@1/dist/clipboard.min.js"></script>
                 <!--[if IE 7]>
 
-        <h1>Your browser is out of date, please update your browser by going to www.microsoft.com/download</h1>
+		<h1>Your browser is out of date, please update your browser by going to www.microsoft.com/download</h1>
 
-        <![endif]-->
+		<![endif]-->
 
-        <script src="js/plugin/bootstrap-tags/bootstrap-tagsinput.min.js"></script>
+    	<script src="js/plugin/bootstrap-tags/bootstrap-tagsinput.min.js"></script>
 
-        <!-- MAIN APP JS FILE -->
-        <script src="js/app.js"></script>
+		<!-- MAIN APP JS FILE -->
+		<script src="js/app.js"></script>
 
-        <!-- PAGE RELATED PLUGIN(S) -->
-        <script src="js/plugin/datatables/jquery.dataTables-cust.min.js"></script>
-        <script src="js/plugin/datatables/ColReorder.min.js"></script>
-        <script src="js/plugin/datatables/FixedColumns.min.js"></script>
-        <script src="js/plugin/datatables/ColVis.min.js"></script>
-        <script src="js/plugin/datatables/media/js/TableTools.min.js"></script>
-        <script src="js/plugin/datatables/DT_bootstrap.js"></script>
-        <script src="js/plugin/datatables/dataTables.fnReloadAjax.js"></script>
+		<!-- PAGE RELATED PLUGIN(S) -->
+		<script src="js/plugin/datatables/jquery.dataTables-cust.min.js"></script>
+		<script src="js/plugin/datatables/ColReorder.min.js"></script>
+		<script src="js/plugin/datatables/FixedColumns.min.js"></script>
+		<script src="js/plugin/datatables/ColVis.min.js"></script>
+		<script src="js/plugin/datatables/media/js/TableTools.min.js"></script>
+		<script src="js/plugin/datatables/DT_bootstrap.js"></script>
+		<script src="js/plugin/datatables/dataTables.fnReloadAjax.js"></script>
 
-        <script type="text/javascript" src="js/datepicker/moment.min.js"></script>
-        <script type="text/javascript" src="js/datepicker/daterangepicker.js"></script>
+		<script type="text/javascript" src="js/datepicker/moment.min.js"></script>
+    	<script type="text/javascript" src="js/datepicker/daterangepicker.js"></script>
 
 
-        <script>
+		<script>
    
         //drop down interaction to change other CryptoCurrency  
         $(document).ready(function(){
@@ -1563,31 +1312,6 @@ $(".modal-wide").on("show.bs.modal", function() {
             });
         });
 
-        ///////////////////////// Exchange Currency Dropdown 
-
-                $(document).ready(function(){
-            var $sc = $('select[name=exchange-currency]'),
-                $nac = $('div[name=exchange-amount-currency]');
-
-            $sc.change(function(){
-                var $this = $(this).find(':selected'),
-                    rel = $this.attr('rel'),
-                    $set = $nac.find('option.' + rel);
-                
-                if ($set.size() < 0) {
-                    $nac.hide();
-                    return;
-                }
-                
-                $nac.show().find('option').hide();
-                
-                $set.show().first().prop('selected', true);
-            });
-        });
-
-
-
-        ///////////////////////// Exchange Currency Dropdown 
 
 
         //drop down interaction to change other CryptoCurrency on Request Funds screen
@@ -1644,15 +1368,15 @@ $(".modal-wide").on("show.bs.modal", function() {
         });
 
 
-        $(document).ready(function() {
+		$(document).ready(function() {
 
-        // Auto stretch textareas in height
-            $('#content').delegate( 'textarea', 'keyup', function (){
-              $(this).height( 0 );
-              $(this).height( this.scrollHeight );
-            });
-            $('#content').find( 'textarea' ).keyup();
-        });
+		// Auto stretch textareas in height
+			$('#content').delegate( 'textarea', 'keyup', function (){
+			  $(this).height( 0 );
+			  $(this).height( this.scrollHeight );
+			});
+			$('#content').find( 'textarea' ).keyup();
+		});
 
 
         function myFunction() {
@@ -1799,7 +1523,7 @@ $(".modal-wide").on("show.bs.modal", function() {
               $('.div-toggle').trigger('change');
         });
 
-        </script>
+		</script>
 
 <!-- tabs javascript -->
 
@@ -1881,34 +1605,8 @@ $(".modal-wide").on("show.bs.modal", function() {
 
 
         </script>
-        <script type="text/javascript" src="./Nativeads_EntirePage_files/campaign-summary.js"></script>
 
-    <!-- intercom.io -->
-        <script>
-            window.intercomSettings = {
-            app_id: "pyh36rdh",
-                    name: "Jose  Valerin", // Full name
-                                email: "jose@onlinebizservices.com", // Email address
-                                created_at: 1432674569, // Created At
-                                user_id: "A-100217", // Advertiser ID
-                                "username": "obsmediabuy", // username
-                                "phone": "506-22153133", // Phone
-                                "company": "", // Company
-                                "payment_type": "Manual",
-                                "payment_amount": "250.00",
-                                "total_spent": 753945.81,
-                                "today_spent": 0.00,
-                                "monthly_spent": 0.00,
-                                "total_deposits": 1000100.00,
-                                "balance": 246154.1900,
-                                "total_campaigns": 546,
-                                "has_unverified_payment_method": 0
-                        };
-        </script>
-        <script>(function(){var w = window; var ic = w.Intercom; if (typeof ic === "function"){ic('reattach_activator'); ic('update', intercomSettings); } else{var d = document; var i = function(){i.c(arguments)}; i.q = []; i.c = function(args){i.q.push(args)}; w.Intercom = i; function l(){var s = d.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'https://widget.intercom.io/widget/pyh36rdh'; var x = d.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); }if (w.attachEvent){w.attachEvent('onload', l); } else{w.addEventListener('load', l, false); }}})()</script>
-    <!-- intercom.io -->
-
-   
+        
 
     </body>
 </html>
