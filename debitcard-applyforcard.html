@@ -8,11 +8,11 @@
 		<title>CryptoCharge</title>
 		<meta name="description" content="">
 		<meta name="author" content="">
-        
+
+        <!-- Basic Styles -->
+
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
-
-		<!-- Basic Styles -->
         <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css">
         
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
@@ -77,6 +77,8 @@
                 </div>
                 <!-- end logout button -->
 
+
+
                 <!-- input: search field -->
                 <form action="#search.html" class="header-search pull-right">
                     <ul id="sparks" class="">
@@ -111,6 +113,7 @@
                 </form>
                 <!-- end input: search field -->
 
+
                 <!-- multiple lang dropdown : find all flags in the image folder -->
 
                 <!-- end multiple lang -->
@@ -121,6 +124,12 @@
         </header>
         <!-- END HEADER -->
 
+        <!-- END HEADER -->
+
+        <!-- Left panel : Navigation area -->
+        <!-- Note: This width of the aside area can be adjusted through LESS variables -->
+        <!-- Left panel : Navigation area -->
+<!-- Note: This width of the aside area can be adjusted through LESS variables -->
 <aside id="left-panel">
 
     <!-- User info -->
@@ -134,6 +143,7 @@
     <!-- end user info -->
 
     <!-- NAVIGATION : This navigation is also responsive
+..
     To make this navigation dynamic please make sure to link the node
     (the reference to the nav > ul) after page load. Or the navigation
     will not initialize.
@@ -143,6 +153,7 @@
         Please note that these links work a bit different than
         traditional href="" links. See documentation for details.
         -->
+
     <ul>
         <li class="">
             <a href="index.html"> <div class="navicon-spacer"><i class="fa fa-lg fa-fw fa-circle"></i> </div> <span class="menu-item-parent" style="">Buy / Sell</span></a>
@@ -153,6 +164,7 @@
         </li>
 
         <li class="">
+
             <a href="#"><div class="navicon-spacer"> <i class="fas fa-cogs" style="padding-left:3px;"></i></i> </div> <span class="menu-item-parent" style="">My Wallet</span>
             </a>
 
@@ -160,20 +172,20 @@
                 <li class="">
                     <a href="transactions-tabs.html"><i class="fab fa-bitcoin"></i><span class="sub-menu-item" style="vertical-align: middle; padding-left: 5px;"> CRYPTOCURRENCY</span></a>
                 </li>
-
                 <li class="">
                     <a href="transactions-tabs-debtcard.html"> <i class="fa fa-lg fa-fw fa-credit-card"></i> <span class="sub-menu-item" style="vertical-align: middle; padding-left: 5px;"> Debit Card</span>
                     </a>
                 </li>
-
             </ul>
+
         </li> 
 
-        <li class="active">
+        <li class="">
             <a href="buy-bitcoin.html"><i class="fab fa-btc" style="padding-left:3px;"></i> </div> <span class="menu-item-parent" style="padding-left:6px">Buy Bitcoin</span></a>
         </li>
 
         <li>
+
             <a href="#"><div class="navicon-spacer"><i style="padding-left:1px;" class="fas fa-credit-card fa-lg"></i></i></div><span class="menu-item-parent" style="padding-left:2.5px;">GIFT CARD TOKENS</span>
             </a>
 
@@ -181,11 +193,9 @@
                 <li class="">
                     <a href="redeem-token.html"><i id="icon-hover" class="fa fa-lg fa-fw fa-gift" id="sub-menu-icons"></i><span class="sub-menu-item" style="vertical-align: middle; padding-left: 5px;">Redeem</a>
                 </li>
-
                 <li class="">
                     <a href="token-transaction-history.html"><i id="icon-hover" class="fas fa-history" id="sub-menu-icons"></i><span class="sub-menu-item" style="vertical-align: middle; padding-left: 5px;">Redeem History</a>
                 </li>
-
             </ul>
         </li>
 
@@ -194,19 +204,17 @@
             </a>
 
             <ul>
-                <li class="">
-                    <a href="debitcard-applyforcard.html"><i id="icon-hover" class="fas fa-money-check-alt" id="sub-menu-icons"></i><span class="sub-menu-item" style="vertical-align: middle; padding-left: 5px;"> APPLY FOR CARD</a>
+                <li class="active">
+                    <a href="debitcard-applyforcard.html"><i id="icon-hover" class="fas fa-money-check-alt" id="sub-menu-icons"></i><span class="sub-menu-item open" style="vertical-align: middle; padding-left: 5px;"> APPLY FOR CARD</a>
                 </li>
-
                 <li class="">
-                    <a href="debtcard-activatecard.html"><i id="icon-hover" class="fa fa-lg fa-fw fa-fw fa-play" id="sub-menu-icons"></i><span class="sub-menu-item" style="vertical-align: middle; padding-left: 5px;"> Activate Card</a>
+                    <a href="debtcard-activatecard.html"><i id="icon-hover" class="fa fa-lg fa-fw fa-fw fa-play" id="sub-menu-icons"></i><span class="sub-menu-item" style="vertical-align: middle;padding-left:5px;"> Activate Card</a>
                 </li>
-
                 <li class="">
                     <a href="debitcard-addfunds.html"><i id="icon-hover" class="fa fa-lg fa-fw fa-fw fa-plus-circle" id="sub-menu-icons"></i><span class="sub-menu-item" style="vertical-align: middle; padding-left: 5px;"> Add Funds</span></a>
                 </li>
-
             </ul>
+
         </li>
 
         <li>
@@ -221,10 +229,11 @@
                     <a href="profile-user-info.html"><i id="icon-hover" class="fa fa-lg fa-fw fa-fw fa-play" id="sub-menu-icons"></i><span class="sub-menu-item" style="vertical-align: middle; padding-left: 5px;">User Information</a>
                 </li>
             </ul>
+
         </li>            
 
         <li>
-           <a href="cryptocharge-sign-up.html"><div class="navicon-spacer"> <i class="fas fa-sign-out-alt fa-lg"></i> </div> <span class="menu-item-parent" style="">Logout</span></a>
+            <a href="cryptocharge-sign-up.html"><div class="navicon-spacer"> <i class="fas fa-sign-out-alt fa-lg"></i> </div> <span class="menu-item-parent" style="">Logout</span></a>
         </li>
     </ul>
 
@@ -247,8 +256,10 @@
     </ul>
 
     </aside>
+<!-- END NAVIGATION -->
+    <!-- END NAVIGATION -->
 
-<!-- MAIN PANEL -->
+    <!-- MAIN PANEL -->
     <div id="main" role="main">
 
         <!-- RIBBON -->
@@ -258,7 +269,7 @@
 
             <!-- breadcrumb -->
             <ol class="breadcrumb">
-               <li><a href="index.html">Home</a></li><li><span style="">Buy Bitcoin</span></li>
+                <li><a href="index.html">Home</a></li><li>Application Form</li>
             </ol>
             <!-- end breadcrumb -->
 
@@ -269,126 +280,115 @@
             </ul>
             <!-- end Send and Request Funds Buttons -->
         </div>
+        <!-- END RIBBON -->    
 
 
+            <!-- Send funds pop-up -->
 
+<div id="sendFunds" class="row funds-main sendfunds">
+                <div class="row col-xs-10 col-md-6 funds-cointainer container">
 
-    <!-- Send funds pop-up -->
-    <div id="sendFunds" class="row funds-main sendfunds">
+                    <div>
+                        <div class="banner_popup_close1" style="position:absolute; right:0px; top:0px; font-size:28px; color:#000; cursor:pointer;"><i class="fa fa-fw fa-close"></i>
+                        </div>
 
-        <div class="row col-xs-10 col-md-6 funds-cointainer container">
-
-            <div>
-                        
-                <div class="banner_popup_close1" style="position:absolute; right:0px; top:0px; font-size:28px; color:#000;cursor:pointer;"><i class="fa fa-fw fa-close"></i>
-                </div>
-
-                <div class="page-title">
-                    SEND FUNDS
-                </div>
-
-            </div>
-
-    <form class="row">
-
-    <fieldset class="row">
-
-            <div class="row" style="">
-            <!-- row for "currency" and "from:" -->
-
-                    <div class="row col-xs-4 no-list-style no-padding">
-                        <li>Currency:</li>
-                            <li>
-                                <section>
-                                <label class="select">
-                                    <select name="send-currency" class="input-sm" style="width: 90%;">
-                                    <option value="1" rel="send-btc">BTC</option>
-                                    <option value="2" rel="send-eth">ETH</option>
-                                    <option value="3" rel="send-bch">BCH</option>
-                                    <option value="4" rel="send-dash">DASH</option>
-                                    </select> <i></i> 
-                                </label>
-                                </section>
-                            </li>
+                        <div class="page-title">
+                            SEND FUNDS
+                        </div>
                     </div>
 
-                    <div class="row col-xs-8 no-list-style no-padding from">
-                        <li>From:</li>
-                            <li>
-                                <section>
-                                <label class="select">
-                                    <select class="input-sm">
-                                    <option>My Bitcoin Wallet (0 BTC)</option>
-                                    <option>My Wallet 1</option>
-                                    <option>My Wallet 2</option>
-                                    </select> <i></i> 
-                                </label>
-                                </section>
-                            </li>
-                    </div>
+                    <form class="row">
+                        <fieldset class="row">
+                            <div class="row">
 
-            </div>
-            <!-- ending div for "currency" and "from:" row -->
+                                <div class="row col-xs-4 no-list-style no-padding">
+                                    <li>Currency:</li>
+                                    <li>
+                                        <section>
+                                            <label class="select">
+                                                <select name="send-currency" class="input-sm" style="width: 90%;">
+                                                        <option value="1" rel="send-btc">BTC</option>
+                                                        <option value="2" rel="send-eth">ETH</option>
+                                                        <option value="3" rel="send-bch">BCH</option>
+                                                        <option value="4" rel="send-dash">DASH</option>
+                                                </select> <i></i> 
+                                            </label>
+                                        </section>
+                                    </li>
+                                </div>
 
-            <div style="margin-bottom:5px;">
-                To:
-            </div>
+                                <div class="row col-xs-8 no-list-style no-padding from">
 
-            <div class="row no-list-style input" style="">
-            <!-- row for qr code -->
+                                    <li>From:</li>
 
-                    <li class="col-xs-10 no-padding">
-                        <input type="text" name="destination" placeholder="Paste or scan an address or select a destination" class="" required style="">
-                    </li>
+                                    <li>
+                                        <section>
+                                            <label class="select">
+                                                <select class="input-sm">
+                                                    <option>My Bitcoin Wallet (0 BTC)</option>
+                                                    <option>My Wallet 1</option>
+                                                    <option>My Wallet 2</option>
+                                                </select> <i></i> 
+                                            </label>
+                                        </section>
+                                    </li>
 
-                    <li class="col-xs-2 no-padding scan">
-                        <div id="myScan"><img src="img/qr-code.png"></div>  
-                    </li>         
+                                </div>
 
-            </div>
-            <!-- ending div for qr code row -->
+                            </div>
 
-            <div id="qrCode" class="qrScan qrcode_popup_close2">
 
-                <div class="pull-right"><i class="fa fa-fw fa-close"></i></div>     
+                            <div style="margin-bottom:5px;">
+                                To:
+                            </div>
 
-                    <div class="userScan"></div>
 
-            </div>
+                            <div class="row no-list-style input">
 
-            <div style="margin-bottom:0px;">
-            Amount:
-            </div>
+                                    <li class="col-xs-10 no-padding">
+                                        <input type="text" name="destination" placeholder="Paste or scan an address or select a destination" class="" required style="">
+                                    </li>
 
-            <div class="row" style="padding-top:0.5em;padding-bottom:0.5em;" >
-            <!-- row for "amount" and "currency" input -->
+                                    <li class="col-xs-2 no-padding scan">
+                                        <div id="myScan"><img src="img/qr-code.png"></div>  
+                                    </li>         
 
-                <div class="col-lg-12 no-padding" style="">
+                            </div>
+
+                            <div id="qrCode" class="qrScan qrcode_popup_close2">
+
+                                <div class="pull-right"><i class="fa fa-fw fa-close"></i></div>           
+                                <div class="userScan"></div>
+
+                            </div>
+
+    <div class="row" style="padding-top:0.5em;padding-bottom:0.5em;">
+
+            <div class="col-lg-12 no-padding">
 
                 <div class="col-lg-5 no-padding" style="text-align:center;">
-                <!-- div "currency input - from" -->
 
-                        <div class="input-group mb-2 mr-sm-2 mb-sm-0" id="disabledTextInput" style="width:100%;">
+                        <div class="input-group mb-2 mr-sm-2 mb-sm-0" id="disabledTextInput" style="width:100%">
 
-                            <input type="number" id="disabledTextInput" class="form-control" id="" placeholder="Currency" style="">
+                        <input type="number" id="disabledTextInput" class="form-control" id="" placeholder="Currency" style="">
 
-                                <div class="input-group-addon" id="disabledTextInput">
+                        <div class="input-group-addon" id="disabledTextInput">
 
-                                    <div name="send-amount-currency">
+                            <div name="send-amount-currency">
 
-                                        <option value="1" class="send-eth trade-display">ETH</option>
-                                        <option value="2" class="send-btc">BTC</option>
-                                        <option value="3" class="send-bch trade-display">BCH</option>
-                                        <option value="4" class="send-dash trade-display">DASH</option>
 
-                                    </div>
+                                <option value="1" class="send-eth trade-display">ETH</option>
+                                <option value="2" class="send-btc">BTC</option>
+                                <option value="3" class="send-bch trade-display">BCH</option>
+                                <option value="4" class="send-dash trade-display">DASH</option>
+
+                            </div>
 
                         </div>
-                        
-                </div>
-                <!-- closing div "currency input - from" --> 
 
                 </div>
+
+            </div>
 
                 <div class="col-lg-2" id="arrow" style="text-align:center;">
 
@@ -396,8 +396,7 @@
 
                 </div>
 
-                <div class="col-lg-5 no-padding" style="">
-                <!-- div "currency input - to" --> 
+                <div class="col-lg-5 no-padding">
 
                     <div class="input-group mb-2 mr-sm-2 mb-sm-0" id="disabledTextInput">
 
@@ -408,14 +407,12 @@
                     </div>
 
                 </div>
-                <!-- closing div for "currency input - to" -->
 
-            </div>
-            <!-- closing row for "amount" and "currency" input  -->
+                </div> <!-- ending div for form group -->
 
-    </form>
+            </form>
 
-    </div> <!-- ending div for conversion row -->
+        </div> <!-- ending div for conversion row -->
 
         <div>
                                 
@@ -435,8 +432,11 @@
                     
     </div>
 
+    </fieldset>
 
-<!-- END Send funds pop-up -->
+</form>
+
+            <!-- END Send funds pop-up -->
 
         
             <!-- Request funds pop-up -->
@@ -465,7 +465,6 @@
                         <div class="col-xs-3 no-padding pull-right">
                             <a id="goRequest" class="pull-right"><i class="fa fa-fw fa-arrow-left"></i> Go Back</a>
                         </div>
-
                     </div>
 
 
@@ -500,41 +499,40 @@
                         </div>
 
                         <div class="page-title">
-                        REQUEST FUNDS
+                            REQUEST FUNDS
                         </div>
                     </div>
 
-            <form class="row" style="">
+                     <div style="margin-bottom:5px;">
+                        Currency:
+                    </div>
 
-                <div style="margin-bottom:5px;">
-                    Currency:
-                </div>
+                    <form class="row">
                         <fieldset class="row">
-                            <div class="row" style="">
-                                <div class="col-xs-6 no-list-style no-padding">
+                            <div class="row">
+
+                                <div class="col-xs-4 no-list-style no-padding">
                                     <li>
-                                     
+                                        <section>
                                             <label class="select">
-                                                <select name="send-currency" class="input-sm">
+                                                <select name="currency" class="input-sm">
                                                     <option value="1" rel="send-btc">BTC</option>
                                                     <option value="2" rel="send-eth">ETH</option>
                                                     <option value="3" rel="funds-bch">BCH</option>
                                                     <option value="4" rel="funds-dash">DASH</option>
-                                                </select> <i></i> 
+                                                </select> <i></i>  
                                             </label>
-                                    
+                                        </section>
                                     </li>
-
-                                
                                 </div>
 
-                                    <div class="col-xs-6">
-                   
-                                    <button type="button" class="btn btn-primary btn-lg">GET NEW BITCOIN ADDRESS</button>
-                                    </div>
+                                <div class="col-lg-6 col-lg-offset-1 no-padding">
+
+                                    <button type="button" input type="button" id="button" class="btn btn-primary btn-lg">GET NEW BITCOIN ADDRESS</button>
+                        
+                                </div>
 
                             </div>
-
 
                             <div class="row" style="margin-bottom:5px;">
 
@@ -577,14 +575,14 @@
                                 <div class="col-xs-5 no-padding"><hr></div>
                             </div>
 
+                            <div style="margin-bottom:5px;">
+                                Amount:
+                            </div>
 
-<!-- */
+
+                                  <!-- */
 *== NEW REQUEST ROW - START ==*
 */ -->
-
-    <div style="margin-bottom:0px;">
-        Amount:
-    </div>
 
     <div class="row" style="padding-top:0.5em;padding-bottom:0.5em;">
 
@@ -598,7 +596,7 @@
 
                         <div class="input-group-addon" id="disabledTextInput">
 
-                            <div name="send-amount-currency">
+                            <div name="cc">
 
                                 <option value="1" class="send-btc">BTC</option>
                                 <option value="2" class="send-eth trade-display">ETH</option>
@@ -679,8 +677,9 @@
             <!-- END request funds pop-up -->
 
 
-<!-- MAIN CONTENT -->
-<div id="content" class="summary-content-padding">
+    <!-- MAIN CONTENT -->
+    
+    <div id="content" class="summary-content-padding">
 
         <!-- row -->
         <div class="row">
@@ -697,480 +696,402 @@
                 </div>
 
             </article>
-
+        
         </div>
 
-    <div class="row" style="">
+<div class="application-container">
 
-        <div class="heading-title"> BUY BITCOIN </div>
-
-    </div>
-
-    <div class="buy-bitcoin-container" style="">
-
-       <!--  <div class="option-1-container"> -->
-
-    <div class="row" id="outer-row">
-
-        <div class="section-title"> OPTION 1: BITCOIN GIFT CARDS </div>
-
-        <div class="row" id="bitcoin-gift-card-row">
-
-            <p> Visit <a href="http://www.bitcoingiftcards.naodesign.ca/" target="_blank"> <strong> Bitcoin Gift Cards </strong> </a> to buy gift cards worth up to $500 dollars </p>                
-
-        </div>
-
-        <div class="row" id="bitcoin-option-row">
-
-                <div class="col-md-2" id="icon-div">
-
-                    <div class="col-lg-4" style="padding:1em;">
-                        <i class="far fa-clock fa-4x"></i>
-                    </div>
-
-                    <div class="col-lg-8" style="padding-top:1em;">
-                        <p> Fast and simple checkout process - no additional fees </p>
-                    </div>  
-
-                </div>
-
-                <div class="col-md-2">
-
-                </div>
-
-                <div class="col-md-2" id="icon-div">
-
-                    <div class="col-lg-4" style="padding:1em;">
-                        <i class="fas fa-shield-alt fa-4x"></i>
-                    </div>
-
-                    <div class="col-lg-8" style="padding-top:1em;">
-                        <p> Claim bitcoins by using a unique redeption code </p>
-                    </div>
-
-                </div>
-
-                    <div class="col-md-2">
-
-                    </div>
-
-                <div class="col-md-2" id="icon-div">
-
-                    <div class="col-lg-4" style="padding:1em;">
-                        <i class="far fa-credit-card fa-4x"></i>
-                    </div>
-
-                    <div class="col-lg-8" style="padding-top:1em;">
-                        <p> Pay using your Visa or Mastercard </p>
-                    </div>
-
-                </div>
-
-        </div> <!-- end of bitcoin option row -->
-
-    </div> <!-- end of outer #ddd row -->
-
-    <br>
-
-    <div class="row" id="outer-row">
-
-        <div class="section-title"> OPTION 2: BUY BITCOIN VIA WIRE TRANSFER </div>
+    <div id="outer-row">
 
         <div class="row">
 
-            <p> Visit <strong> <a href="http://www.bitcoingiftcards.naodesign.ca" target="_blank"> Bitcoin Gift Cards </strong> </a> to buy gift cards worth up to $500 dollars </p>                
-                   
+            <div class="col-lg-12 section-title">
+
+                Choose Your Card 
+                
+            </div>
+
         </div>
 
-        <div class="row" style="">
 
-            <p> To purchase bitcoin via wire transfer, please fill out the form below and click Submit. This will generate a PDF file you can print out and provide to your bank containing all of the information they require to submit a Wire payment. If you need assistance please <br> <a href="#"><strong> Click Here To Contact Support </strong></a> </p>      
-       
-        </div>
+        <div class="user-verify" style="">
 
-        <div class="section-title"> Account Details </div>
+                    <table class="table debit-verify">
 
-            <div class="row-user">
+                        <thead>
+                            <tr>
+                                <th style="width:20%;"></th>
+                                <th style="width:20%;"><h1 class="debit-card-name">AXS Silver</h1></th>
+                                <th style="width:20%;"><h1 class="debit-card-name">AXS Gold</h1></th>
+                                <th style="width:20%;"><h1 class="debit-card-name">AXS Platinum</h1></th>
+                                <th style="width:20%;"><h1 class="debit-card-name">AXS Black Elite</h1></th>
+                            </tr>
+                        </thead>
 
-                <div class="form-horizontal">
+                        <tbody>
 
-                    <div class="form-group">
+                            <tr>
+                                <td>
+                                    Card Type
+                                </td>
 
-                        <div class="col-lg-4">
+                                <td>
+                                     <img class="img-responsive" alt="Responsive image" src="img/cc-card-silver.png" style="margin:0 auto;">
+                                </td>
 
-                                <label for="inputSalutation" class="control-label">Name of Bank Account Holder</label>
+                                <td>
+                                    <img class="img-responsive" alt="Responsive image" src="img/cc-card-gold.png" style="margin:0 auto;">
+                                </td>
 
-                            </div>
+                                <td>
+                                    <img class="img-responsive" alt="Responsive image" src="img/cc-card-plantinum.png" style="margin:0 auto;">
+                                </td>
 
-                            <div class="col-lg-8">
+                                <td>
+                                    <img class="img-responsive" alt="Responsive image" src="img/cc-card-black.png" style="margin:0 auto;">
+                                </td>
+                            </tr>
+                              
+                            <tr>
+                                <td>
+                                    Pre-Approval 
+                                </td>
 
-                                <fieldset disabled="">
-                                    <div class="form-group" style="padding-right:0em;">
-                                    <input type="text" id="disabledTextInput" class="form-control" placeholder="Super Bank">
+                                <td>
+                                    <div id="debit-validated-dark">Pre-Approved</div>
+                                </td>
+
+                                <td>
+                                    <div id="debit-validated-dark">Pre-Approved</div>  
+                                </td>
+
+                                <td>
+                                    <div id="debit-action-required">
+                                    Action Required
+                                    </div>    
+                                </td>
+
+                                <td>
+                                    <div id="debit-action-required">
+                                    Action Required
+                                    </div>     
+                                </td>
+
+                            </tr>
+
+                            <tr>
+                                <td>
+                                   Card Cost
+                                </td>
+
+                                <td>
+                                    <div class="text-center">
+                                    $14.95    
                                     </div>
-                                </fieldset>
+                                </td>
 
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-                <!-- end of row div -->
-
-                <div class="row-user">
-
-                    <div class="form-horizontal">
-
-                        <div class="form-group">
-
-                            <div class="col-lg-4">
-
-                                <label for="inputSalutation" class="control-label">Country</label>
-
-                            </div>
-
-                            <div class="col-lg-8 no-padding">
-
-                                <select class="custom-select" style="height:2.5em;width:100%;padding-left:0.5em">
-                                            <option value="1">Canada</option>
-                                            <option value="2">United States</option>
-                                            <option value="3">Australia</option>
-                                            <option value="4">China</option>
-                                </select>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <div class="row-user">
-
-                    <div class="form-horizontal">
-
-                        <div class="form-group">
-
-                            <div class="col-lg-2">
-
-                                <label for="inputSalutation" class="control-label">Amount</label>
-
-                            </div>
-
-                            <div class="col-lg-2 col-lg-offset-2">
-
-                                <fieldset disabled="">
-                                    <div class="form-group" style="padding-right:0em;">
-                                    <input type="text" id="disabledTextInput" class="form-control" placeholder="$5000.00">
+                                <td> 
+                                     <div class="text-center">
+                                    $34.95
                                     </div>
-                                </fieldset>                        
+                                </td>
 
-                            </div>
-
-                            <div class="col-lg-1 no-padding">
-
-                                <select class="custom-select" style="height:2.5em;width:100%;padding-left:0.5em">
-                                            <option value="1">USD</option>
-                                            <option value="2">CAD</option>
-                                            <option value="3">EURO</option>
-                                            <option value="4">AUD</option>
-                                </select>
-
-                            </div>
-
-                            <div class="col-lg-4 col-lg-offset-1">
-
-                                <fieldset disabled="">
-                                    <div class="form-group" style="padding-right:0em;">
-                                    <input type="text" id="disabledTextInput" class="form-control" placeholder="0.55555">
+                                <td> 
+                                     <div class="text-center">
+                                    $44.95
                                     </div>
-                                </fieldset>                        
+                                </td>
 
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <!-- end of row div -->
-
-                <div class="row-user">
-
-                    <div class="form-horizontal">
-
-                        <div class="form-group">
-
-                            <div class="col-lg-4">
-
-                                <label for="inputSalutation" class="control-label">Bank Account Number</label>
-
-                            </div>
-
-                            <div class="col-lg-8">
-
-                                <!-- <fieldset disabled=""> -->
-                                    <div class="form-group" style="padding-right:0em;">
-                                    <input type="text" id="disabledTextInput" class="form-control" placeholder="9876564124">
+                                <td> 
+                                     <div class="text-center">
+                                    79.95
                                     </div>
-                               <!--  </fieldset> -->    
+                                </td>
+                            </tr>
 
-                            </div>
+                            <tr>
+                                <td> 
+                                    Annual Fee 
+                                </td>
 
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <!-- end of row div -->
-
-                <div class="row-user">
-
-                    <div class="form-horizontal">
-
-                        <div class="form-group">
-
-                            <div class="col-lg-4">
-
-                                <label for="inputSalutation" class="control-label">Bank Transit Number</label>
-
-                            </div>
-
-                            <div class="col-lg-8">
-
-                                <!-- <fieldset disabled=""> -->
-                                    <div class="form-group" style="padding-right:0em;">
-                                    <input type="text" id="disabledTextInput" class="form-control" placeholder="1254">
+                                <td> 
+                                     <div class="text-center">
+                                    $0.00
                                     </div>
-                               <!--  </fieldset> -->    
+                                </td>
 
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <!-- end of row div -->
-
-                <div class="row-user">
-
-                    <div class="form-horizontal">
-
-                        <div class="form-group">
-
-                            <div class="col-lg-4">
-
-                                <label for="inputSalutation" class="control-label">Bank Name</label>
-
-                            </div>
-
-                            <div class="col-lg-8">
-
-                                    <div class="form-group" style="padding-right:0em;">
-                                    <input type="text" id="disabledTextInput" class="form-control" placeholder="Super Bank">
-                                    </div>                            
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <!-- end of row div -->
-
-                <div class="row-user">
-
-                    <div class="form-horizontal">
-
-                        <div class="form-group">
-
-                            <div class="col-lg-4">
-
-                                <label for="inputSalutation" class="control-label">Bank Address 1</label>
-
-                            </div>
-
-                            <div class="col-lg-8">
-
-                                    <div class="form-group" style="padding-right:0em;">
-                                    <input type="text" id="disabledTextInput" class="form-control" placeholder="1234-D Speing">
+                                <td> 
+                                    <div class="text-center">
+                                    $0.00
                                     </div>
+                                </td>
 
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <!-- end of row div -->
-
-                <div class="row-user">
-
-                    <div class="form-horizontal">
-
-                        <div class="form-group">
-
-                            <div class="col-lg-4">
-
-                                <label for="inputSalutation" class="control-label">Bank Address 2</label>
-
-                            </div>
-
-                            <div class="col-lg-8">
-
-                                    <div class="form-group" style="padding-right:0em;">
-                                    <input type="text" id="disabledTextInput" class="form-control" placeholder="">
+                                <td> 
+                                    <div class="text-center">
+                                    $74.95
                                     </div>
+                                </td>
 
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <!-- end of row div -->
-
-                <div class="row-user">
-
-                    <div class="form-horizontal">
-
-                        <div class="form-group">
-
-                            <div class="col-lg-4">
-
-                                <label for="inputSalutation" class="control-label">City</label>
-
-                            </div>
-
-                            <div class="col-lg-8">
-
-                                    <div class="form-group" style="padding-right:0em;">
-                                    <input type="text" id="disabledTextInput" class="form-control" placeholder="Singapore">
+                                <td> 
+                                    <div class="text-center">
+                                    $129.95
                                     </div>
+                                </td>
+                            </tr>
 
-                            </div>
+                            <tr>
+                                <td> 
+                                    Signup Bonus Tokens
+                                </td>
 
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <!-- end of row div -->
-
-                <div class="row-user">
-
-                    <div class="form-horizontal">
-
-                        <div class="form-group">
-
-                            <div class="col-lg-4">
-
-                                <label for="inputSalutation" class="control-label">Postal/Zip Code</label>
-
-                            </div>
-
-                            <div class="col-lg-8">
-
-                                    <div class="form-group" style="padding-right:0em;">
-                                    <input type="text" id="disabledTextInput" class="form-control" placeholder="H2X1C4">
+                                <td> 
+                                    <div class="text-center">
+                                    0
                                     </div>
+                                </td>
 
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <!-- end of row div -->
-
-                <div class="row-user">
-
-                    <div class="form-horizontal">
-
-                        <div class="form-group">
-
-                            <div class="col-lg-4">
-
-                                <label for="inputSalutation" class="control-label">Memo 
-
-                                    <br>
-
-                                    <p style="font-style:italic;"> Please include your user name, e-mail address, or account ID in the Memo field </p>
-
-                                </label>
-
-                            </div>
-
-                            <div class="col-lg-8">
-
-                                    <div class="form-group">
-
-                                    <!-- <textarea class="form-control" rows="10" id="comment"></textarea> -->
-
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
-
+                                <td> 
+                                    <div class="text-center">
+                                    1000
                                     </div>
+                                </td>
 
-                            </div>
+                                <td> 
+                                    <div class="text-center">
+                                    5000
+                                    </div>
+                                </td>
 
-                        </div>
+                                <td> 
+                                    <div class="text-center">
+                                    10000
+                                    </div>
+                                </td>   
+                            </tr>
 
-                    </div>
+                            <tr>
+                                <td>
+                                    Daily ATM Limit
+                                </td>
 
-                </div>
+                                <td> 
+                                    <div class="text-center">
+                                    $100
+                                    </div>
+                                </td>
+                                    
+                                <td>
+                                    <div class="text-center">
+                                    $200
+                                    </div>
+                                </td>
 
-                <!-- end of row div -->
+                                <td>
+                                    <div class="text-center">
+                                    $500
+                                    </div>  
+                                </td>
 
-                <hr>
+                                <td>
+                                    <div class="text-center">
+                                    $800
+                                    </div>  
+                                </td>
 
-                <div class="row">
+                            </tr>
 
-                    <div class="col-lg-12">
+                            <tr>
+                                 <td>
+                                    Monthly ATM Limit
+                                </td>
+                                
+                                <td>  
+                                    <div class="text-center">
+                                    $3,000
+                                    </div>    
+                                </td>
 
-                        <p> After clicking submit please print the PDF file and take the print-out to your bank </p>
+                                <td>
+                                    <div class="text-center">
+                                    $6,000
+                                    </div>      
+                                </td>
 
-                        <div id="submit-pdf" style="display:flex;justify-content:center;">
+                                <td>
+                                    <div class="text-center">
+                                    $10,000
+                                    </div>  
+                                </td>
 
-                        <a href="">
-                        <button class="btn btn-primary" id="submit-buy-bc-button">SUBMIT</button>
-                        </a>
+                                <td>
+                                    <div class="text-center">
+                                    $15,000
+                                    </div>    
+                                </td>
+                            </tr>
 
-                        </div>
+                            <tr>
+                                <td> 
+                                   Monthly Transaction Limit 
+                                </td>
 
-                    </div>
+                                <td>
+                                    <div class="text-center">
+                                    $5,000
+                                    </div>
+                                </td>
 
-                </div>
+                                <td>
+                                    <div class="text-center">
+                                    $7,500
+                                    </div>
+                                </td>
 
+                                <td>
+                                    <div class="text-center">
+                                    $15,000
+                                    </div>
+                                </td>
 
+                                <td>
+                                    <div class="text-center">
+                                    $20,000
+                                    </div>
+                                </td>
+                            </tr>
 
-            </div>    
+                            <tr>
+                                <td> 
+                                     Transaction Fee 
+                                </td>
 
-        </div>
+                                <td>
+                                    <div class="text-center">
+                                    0.25
+                                    </div>
+                                </td>
+
+                                <td>
+                                    <div class="text-center">
+                                    0.15
+                                    </div>
+                                </td>
+
+                                <td>
+                                    <div class="text-center">
+                                    0
+                                    </div>
+                                </td>
+
+                                <td>
+                                    <div class="text-center">
+                                    0
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td> 
+                                     Load Fee 
+                                </td>
+
+                                <td>
+                                    <div class="text-center">
+                                    7.00%
+                                    </div>
+                                </td>
+
+                                <td>
+                                    <div class="text-center">
+                                    6.00%
+                                    </div>
+                                </td>
+
+                                <td>
+                                    <div class="text-center">
+                                    5.00%
+                                    </div>
+                                </td>
+
+                                <td>
+                                    <div class="text-center">
+                                    4.00%
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td> 
+                                      
+                                </td>
+
+                                <td style="">
+                                    <div class="text-center">
+                                    <a href="debit-card-application-form.html"> 
+                                    <button class="btn-primary" id="debit-apply-now-button" style="width:50%;border-radius:5px;"> 
+                                    APPLY NOW
+                                    </button>
+                                    </a>
+                                    </div>
+                                </td>
+
+                                <td>
+                                    <div class="text-center">
+                                    <a href="debit-card-application-form.html"> 
+                                    <button class="btn-primary" id="debit-apply-now-button" style="width:50%;border-radius:5px;"> 
+                                    APPLY NOW
+                                    </button>
+                                    </a>
+                                    </div>
+                                </td>
+
+                                <td>
+                                   <div class="text-center">
+                                    <a href="profile-verification.final.html"> 
+                                    <button class="btn btn-default" id="debit-require-button" style="width:80%;border-radius:5px;"> 
+                                    SEE REQUIREMENTS
+                                    </button>
+                                    </a>
+                                    </div>
+                                </td>
+
+                                <td>
+                                    <div class="text-center">
+                                    <a href="profile-verification.final.html"> 
+                                    <button class="btn-default" id="debit-require-button" style="width:80%;border-radius:5px;"> 
+                                    SEE REQUIREMENTS
+                                    </button>
+                                    </a>
+                                    </div>
+                                </td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+            </div>
 
     </div>
 
-</div>        
 
+
+                   
 </div>
 <!-- END MAIN CONTENT -->
 
 </div>
+
+
+</div>
+
+
+
+
+
+
+
+
         <!-- END MAIN PANEL -->
 
         <!-- Type Identifier -->
@@ -1182,7 +1103,7 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <!--================================================== -->
-        <!-- Link to Google CDN's jQuery + jQueryUI; fall back to local -->
+        		<!-- Link to Google CDN's jQuery + jQueryUI; fall back to local -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 		<script>
 			if (!window.jQuery) {
@@ -1608,6 +1529,5 @@
         </script>
 
         
-
     </body>
 </html>
